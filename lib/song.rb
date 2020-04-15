@@ -26,11 +26,11 @@ end
 
 def self.genre_count
 genre_count = {}
-@@genre.each do |genre| 
+@@genres.each do |genre| 
   if genre_count.include?(genre) == false 
-  genre_count << @@genre + "1"
+  genre_count << @@genres + "1"
 else 
-  @@genre+=1
+  @@genres+=1
 end
 end
 
