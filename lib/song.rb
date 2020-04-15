@@ -26,6 +26,13 @@ end
 
 def self.genre_count
 genre_count = {}
+if genre_count.include?(genre) == false 
+  genre_count << @@genre + "1"
+else 
+  @@genre+=1
+end
+
+@@genre
 end
 
 
