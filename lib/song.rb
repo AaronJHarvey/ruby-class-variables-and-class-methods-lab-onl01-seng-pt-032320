@@ -34,7 +34,7 @@ else
 end
 end
 
-@@genre
+@@genres
 end
 
 
